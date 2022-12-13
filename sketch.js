@@ -14,18 +14,18 @@ let ghwdYellow;
 let ghwdGreen;
 let ghwdBlue;
 let ghwdPurple;
-let ghwikaRed;
-let ghwikaOrange;
-let ghwikaYellow;
-let ghwikaGreen;
-let ghwikaBlue;
-let ghwikaPurple;
 let gemegek;
 let gemeele;
 let grubygek;
 let grubyele;
 let gsapphgek;
 let gsapphele;
+let ghwikaRed;
+let ghwikaOrange;
+let ghwikaYellow;
+let ghwikaGreen;
+let ghwikaBlue;
+let ghwikaPurple;
 let Loomian = "ghwshaw";
 let position1 = null;
 let position2 = null;
@@ -71,6 +71,12 @@ function preload() {
   ghwdGreen = loadImage("assets/ghwdGreen.png");
   ghwdBlue = loadImage("assets/ghwdBlue.png");
   ghwdPurple = loadImage("assets/ghwdPurple.png");
+  gemegek = loadImage("assets/gemegek.png");
+  gemeele = loadImage("assets/gemeele.png");
+  grubygek = loadImage("assets/grubygek.png");
+  grubyele = loadImage("assets/grubyele.png");
+  gsapphgek = loadImage("assets/gsapphgek.png");
+  gsapphele = loadImage("assets/gsapphele.png");
   ghwikaRed = loadImage("assets/ghwdRed.png");
   ghwikaOrange = loadImage("assets/ghwikaOrange.png");
   ghwikaYellow = loadImage("assets/ghwikaYellow.png");
@@ -140,6 +146,12 @@ function draw() {
   image(ghwdGreen, 695 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
   image(ghwdBlue, 725 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
   image(ghwdPurple, 755 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(gemegek, 605 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(gemeele, 635 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(grubygek, 665 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(grubyele, 695 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(gsaphhgek, 725 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(gsaphhele, 755 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
   //select
   strokeWeight(5);
   stroke("pink");
@@ -219,6 +231,18 @@ function mouseClicked() {
       Loomian = "ghwdBlue";
     } else if (Loomian === 12) {
       Loomian = "ghwdPurple";
+    } else if (Loomian === 13) {
+      Loomian = "gemegek";
+    } else if (Loomian === 14) {
+      Loomian = "gemeele";
+    } else if (Loomian === 15) {
+      Loomian = "grubygek";
+    } else if (Loomian === 16) {
+      Loomian = "grubyele";
+    } else if (Loomian === 17) {
+      Loomian = "gsaphhgek";
+    } else if (Loomian === 18) {
+      Loomian = "gsaphhele";
     } else {
       Loomian = null;
     }
