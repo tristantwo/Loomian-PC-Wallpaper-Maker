@@ -20,7 +20,7 @@ let ghwikaYellow;
 let ghwikaGreen;
 let ghwikaBlue;
 let ghwikaPurple;
-let Loomian = "ghwdRed";
+let Loomian = "ghwshaw";
 let position1 = null;
 let position2 = null;
 let position3 = null;
@@ -122,12 +122,12 @@ function draw() {
   fill(0);
   text("erase", 610 - 2.5, 420 + 7.5);
   text("save", 640 - 2.5, 420 + 7.5);
-  image(ghwdRed, 605 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwdOrange, 635 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwdYellow, 665 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwdGreen, 695 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwdBlue, 725 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwdPurple, 755 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwdRed, 605 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ghwdOrange, 635 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ghwdYellow, 665 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ghwdGreen, 695 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ghwdBlue, 725 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ghwdPurple, 755 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
   //select
   strokeWeight(5);
   stroke("pink");
