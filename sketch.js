@@ -189,7 +189,19 @@ function mouseClicked() {
     selectX = 600 + floor((mouseX - 600) / 30) * 30 + 5;
     selectY = 50 + floor((mouseY - 50) / 30) * 30 + 5;
     Loomian = floor((mouseY - 50) / 30) * 6 + floor((mouseX - 600) / 30) + 1;
-    if (Loomian === 7) {
+    if (Loomian === 1) {
+      Loomian = "ghwshaw"
+    } else if (Loomian === 2) {
+      Loomian = "ghwslug"
+    } else if (Loomian === 3) {
+      Loomian = "ghwescar"
+    } else if (Loomian === 4) {
+      Loomian = "ghwsgas"
+    } else if (Loomian === 5) {
+      Loomian = "grinch"
+    } else if (Loomian === 6) {
+      Loomian = "ggcika"
+    } else if (Loomian === 7) {
       Loomian = "ghwdRed";
     } else if (Loomian === 8) {
       Loomian = "ghwdOrange";
