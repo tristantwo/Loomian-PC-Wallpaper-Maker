@@ -196,7 +196,7 @@ function mouseClicked() {
     } else if (Loomian === 3) {
       Loomian = "ghwescar"
     } else if (Loomian === 4) {
-      Loomian = "ghwsgas"
+      Loomian = "ghwgas"
     } else if (Loomian === 5) {
       Loomian = "grinch"
     } else if (Loomian === 6) {
