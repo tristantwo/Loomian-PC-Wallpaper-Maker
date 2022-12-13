@@ -77,7 +77,7 @@ function preload() {
   grubyele = loadImage("assets/grubyele.png");
   gsapphgek = loadImage("assets/gsapphgek.png");
   gsapphele = loadImage("assets/gsapphele.png");
-  ghwikaRed = loadImage("assets/ghwdRed.png");
+  ghwikaRed = loadImage("assets/ghwikaRed.png");
   ghwikaOrange = loadImage("assets/ghwikaOrange.png");
   ghwikaYellow = loadImage("assets/ghwikaYellow.png");
   ghwikaGreen = loadImage("assets/ghwikaGreen.png");
