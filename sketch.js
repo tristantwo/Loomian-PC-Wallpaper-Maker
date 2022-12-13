@@ -53,6 +53,12 @@ function preload() {
   ghwdGreen = loadImage("assets/ghwdGreen.png");
   ghwdBlue = loadImage("assets/ghwdBlue.png");
   ghwdPurple = loadImage("assets/ghwdPurple.png");
+  ghwikaRed = loadImage("assets/ghwdRed.png");
+  ghwikaOrange = loadImage("assets/ghwikaOrange.png");
+  ghwikaYellow = loadImage("assets/ghwikaYellow.png");
+  ghwikaGreen = loadImage("assets/ghwikaGreen.png");
+  ghwikaBlue = loadImage("assets/ghwikaBlue.png");
+  ghwikaPurple = loadImage("assets/ghwikaPurple.png");
 }
 
 function setup() {
@@ -104,12 +110,12 @@ function draw() {
   fill(0);
   text("erase", 610 - 2.5, 420 + 7.5);
   text("save", 640 - 2.5, 420 + 7.5);
-  image(ghwdRed, 605 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
-  image(ghwdOrange, 635 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
-  image(ghwdYellow, 665 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
-  image(ghwdGreen, 695 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
-  image(ghwdBlue, 725 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
-  image(ghwdPurple, 755 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
+  image(ghwdRed, 605 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwdOrange, 635 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwdYellow, 665 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwdGreen, 695 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwdBlue, 725 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwdPurple, 755 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
   //select
   strokeWeight(5);
   stroke("pink");
@@ -165,17 +171,17 @@ function mouseClicked() {
     selectX = 600 + floor((mouseX - 600) / 30) * 30 + 5;
     selectY = 50 + floor((mouseY - 50) / 30) * 30 + 5;
     Loomian = floor((mouseY - 50) / 30) * 6 + floor((mouseX - 600) / 30) + 1;
-    if (Loomian === 1) {
+    if (Loomian === 7) {
       Loomian = "ghwdRed";
-    } else if (Loomian === 2) {
+    } else if (Loomian === 8) {
       Loomian = "ghwdOrange";
-    } else if (Loomian === 3) {
+    } else if (Loomian === 9) {
       Loomian = "ghwdYellow";
-    } else if (Loomian === 4) {
+    } else if (Loomian === 10) {
       Loomian = "ghwdGreen";
-    } else if (Loomian === 5) {
+    } else if (Loomian === 11) {
       Loomian = "ghwdBlue";
-    } else if (Loomian === 6) {
+    } else if (Loomian === 12) {
       Loomian = "ghwdPurple";
     } else {
       Loomian = null;
