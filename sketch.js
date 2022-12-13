@@ -53,6 +53,12 @@ let position29 = null;
 let position30 = null;
 
 function preload() {
+  ghwshaw = loadImage("assets/ghwshaw.png");
+  ghwslug = loadImage("assets/ghwslug.png");
+  ghwescar = loadImage("assets/ghwescar.png");
+  ghwgas = loadImage("assets/ghwgas.png");
+  grinch = loadImage("assets/grinch.png");
+  ggcika = loadImage("assets/ggcika.png");
   ghwdRed = loadImage("assets/ghwdRed.png");
   ghwdOrange = loadImage("assets/ghwdOrange.png");
   ghwdYellow = loadImage("assets/ghwdYellow.png");
