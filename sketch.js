@@ -152,6 +152,12 @@ function draw() {
   image(grubyele, 695 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
   image(gsapphgek, 725 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
   image(gsapphele, 755 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(ghwikaRed, 605 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwikaOrange, 635 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwikaYellow, 665 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwikaGreen, 695 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwikaBlue, 725 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwikaPurple, 755 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
   //select
   strokeWeight(5);
   stroke("pink");
@@ -243,6 +249,18 @@ function mouseClicked() {
       Loomian = "gsapphgek";
     } else if (Loomian === 18) {
       Loomian = "gsapphele";
+    } else if (Loomian === 19) {
+      Loomian = "ghwikaRed";
+    } else if (Loomian === 20) {
+      Loomian = "ghwikaOrange";
+    } else if (Loomian === 21) {
+      Loomian = "ghwikaYellow";
+    } else if (Loomian === 22) {
+      Loomian = "ghwikaGreen";
+    } else if (Loomian === 23) {
+      Loomian = "ghwikaBlue";
+    } else if (Loomian === 24) {
+      Loomian = "ghwikaPurple";
     } else {
       Loomian = null;
     }
