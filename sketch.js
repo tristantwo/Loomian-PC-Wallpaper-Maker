@@ -71,6 +71,12 @@ function preload() {
   ghwgas = loadImage("assets/ghwgas.png");
   grinch = loadImage("assets/grinch.png");
   ggcika = loadImage("assets/ggcika.png");
+  ggiciRed = loadImage("assets/ggici.png");
+  ggiciOrange = loadImage("assets/ggiciOrange.png");
+  ggiciYellow = loadImage("assets/ggiciYellow.png");
+  ggiciGreen = loadImage("assets/ggiciGreen.png");
+  ggiciNavy = loadImage("assets/ggiciNavy.png");
+  ggiciPurple = loadImage("assets/ggiciPurple.png");
   ghwdRed = loadImage("assets/ghwdRed.png");
   ghwdOrange = loadImage("assets/ghwdOrange.png");
   ghwdYellow = loadImage("assets/ghwdYellow.png");
@@ -146,24 +152,30 @@ function draw() {
   image(ghwgas, 695 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
   image(grinch, 725 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
   image(ggcika, 755 - (25 / 90) * 15, 55, (4 / 3) * 25, 25);
-  image(ghwdRed, 605 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
-  image(ghwdOrange, 635 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
-  image(ghwdYellow, 665 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
-  image(ghwdGreen, 695 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
-  image(ghwdBlue, 725 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
-  image(ghwdPurple, 755 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
-  image(gemegek, 605 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
-  image(gemeele, 635 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
-  image(grubygek, 665 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
-  image(grubyele, 695 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
-  image(gsapphgek, 725 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
-  image(gsapphele, 755 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
-  image(ghwikaRed, 605 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwikaOrange, 635 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwikaYellow, 665 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwikaGreen, 695 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwikaBlue, 725 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwikaPurple, 755 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ggiciRed, 605 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ggiciOrange, 635 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ggiciYellow, 665 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ggiciGreen, 695 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ggiciNavy, 725 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ggiciPurple, 755 - (25 / 90) * 15, 85, (4 / 3) * 25, 25);
+  image(ghwdRed, 605 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(ghwdOrange, 635 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(ghwdYellow, 665 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(ghwdGreen, 695 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(ghwdBlue, 725 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(ghwdPurple, 755 - (25 / 90) * 15, 115, (4 / 3) * 25, 25);
+  image(gemegek, 605 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(gemeele, 635 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(grubygek, 665 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(grubyele, 695 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(gsapphgek, 725 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(gsapphele, 755 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
+  image(ghwikaRed, 605 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ghwikaOrange, 635 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ghwikaYellow, 665 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ghwikaGreen, 695 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ghwikaBlue, 725 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ghwikaPurple, 755 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
   //select
   strokeWeight(5);
   stroke("pink");
@@ -232,40 +244,52 @@ function mouseClicked() {
     } else if (Loomian === 6) {
       Loomian = "ggcika"
     } else if (Loomian === 7) {
-      Loomian = "ghwdRed";
+      Loomian = "ggiciRed"
     } else if (Loomian === 8) {
-      Loomian = "ghwdOrange";
+      Loomian = "ggiciOrange"
     } else if (Loomian === 9) {
-      Loomian = "ghwdYellow";
+      Loomian = "ggiciYellow"
     } else if (Loomian === 10) {
-      Loomian = "ghwdGreen";
+      Loomian = "ggiciGreen"
     } else if (Loomian === 11) {
-      Loomian = "ghwdBlue";
+      Loomian = "ggiciNavy"
     } else if (Loomian === 12) {
-      Loomian = "ghwdPurple";
+      Loomian = "ggiciPurple"
     } else if (Loomian === 13) {
-      Loomian = "gemegek";
+      Loomian = "ghwdRed";
     } else if (Loomian === 14) {
-      Loomian = "gemeele";
+      Loomian = "ghwdOrange";
     } else if (Loomian === 15) {
-      Loomian = "grubygek";
+      Loomian = "ghwdYellow";
     } else if (Loomian === 16) {
-      Loomian = "grubyele";
+      Loomian = "ghwdGreen";
     } else if (Loomian === 17) {
-      Loomian = "gsapphgek";
+      Loomian = "ghwdBlue";
     } else if (Loomian === 18) {
-      Loomian = "gsapphele";
+      Loomian = "ghwdPurple";
     } else if (Loomian === 19) {
-      Loomian = "ghwikaRed";
+      Loomian = "gemegek";
     } else if (Loomian === 20) {
-      Loomian = "ghwikaOrange";
+      Loomian = "gemeele";
     } else if (Loomian === 21) {
-      Loomian = "ghwikaYellow";
+      Loomian = "grubygek";
     } else if (Loomian === 22) {
-      Loomian = "ghwikaGreen";
+      Loomian = "grubyele";
     } else if (Loomian === 23) {
-      Loomian = "ghwikaBlue";
+      Loomian = "gsapphgek";
     } else if (Loomian === 24) {
+      Loomian = "gsapphele";
+    } else if (Loomian === 25) {
+      Loomian = "ghwikaRed";
+    } else if (Loomian === 26) {
+      Loomian = "ghwikaOrange";
+    } else if (Loomian === 27) {
+      Loomian = "ghwikaYellow";
+    } else if (Loomian === 28) {
+      Loomian = "ghwikaGreen";
+    } else if (Loomian === 29) {
+      Loomian = "ghwikaBlue";
+    } else if (Loomian === 30) {
       Loomian = "ghwikaPurple";
     } else {
       Loomian = null;
