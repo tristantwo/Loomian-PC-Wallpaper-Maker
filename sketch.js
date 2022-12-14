@@ -222,10 +222,14 @@ function handleFile(file) {
 }
 
 function touchStarted() {
-  mouseClicked();
+  buttons();
 }
 
 function mouseClicked() {
+  buttons();
+}
+
+function buttons() {
   if (mouseX > 600 && mouseX < 780 && mouseY > 50 && mouseY < 410) {
     if ((mouseX - 600) % 30 > 0 && (mouseX - 600) % 30 <= 5) {
       return;
