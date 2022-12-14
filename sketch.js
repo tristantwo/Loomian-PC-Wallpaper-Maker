@@ -71,7 +71,7 @@ function preload() {
   ghwgas = loadImage("assets/ghwgas.png");
   grinch = loadImage("assets/grinch.png");
   ggcika = loadImage("assets/ggcika.png");
-  ggiciRed = loadImage("assets/ggici.png");
+  ggiciRed = loadImage("assets/ggiciRed.png");
   ggiciOrange = loadImage("assets/ggiciOrange.png");
   ggiciYellow = loadImage("assets/ggiciYellow.png");
   ggiciGreen = loadImage("assets/ggiciGreen.png");
