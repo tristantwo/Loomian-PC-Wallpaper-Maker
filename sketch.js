@@ -238,7 +238,9 @@ function handleFile(file) {
 }
 
 function touchStarted() {
-  mouseClicked();
+  if (touches.length >= 1) {
+    mouseClicked();
+  }
 }
 
 function mouseClicked() {
