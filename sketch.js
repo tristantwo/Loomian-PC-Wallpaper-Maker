@@ -26,8 +26,8 @@ let grubygek;
 let grubyele;
 let gsapphgek;
 let gsapphele;
-let rbd;
 let rbt;
+let rbd;
 let gghwproto;
 let ggcpropae;
 let ggcmuta;
@@ -94,6 +94,11 @@ function preload() {
   grubyele = loadImage("assets/grubyele.png");
   gsapphgek = loadImage("assets/gsapphgek.png");
   gsapphele = loadImage("assets/gsapphele.png");
+  rbt = loadImage("assets/rbt.png");
+  rbd = loadImage("assets/rbd.png");
+  gghwproto = loadImage("assets/gghwproto.png");
+  ggcpropae = loadImage("assets/ggcpropae.png");
+  ggcmuta = loadImage("assets/ggcmuta.png");
   ghwikaRed = loadImage("assets/ghwikaRed.png");
   ghwikaOrange = loadImage("assets/ghwikaOrange.png");
   ghwikaYellow = loadImage("assets/ghwikaYellow.png");
@@ -175,12 +180,18 @@ function draw() {
   image(grubyele, 695 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
   image(gsapphgek, 725 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
   image(gsapphele, 755 - (25 / 90) * 15, 145, (4 / 3) * 25, 25);
-  image(ghwikaRed, 605 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
-  image(ghwikaOrange, 635 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
-  image(ghwikaYellow, 665 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
-  image(ghwikaGreen, 695 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
-  image(ghwikaBlue, 725 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
-  image(ghwikaPurple, 755 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(rbt, 605 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(rbd, 635 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(gghwproto, 665 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ggcpropae, 695 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ggcmuta, 725 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  //image(, 755 - (25 / 90) * 15, 175, (4 / 3) * 25, 25);
+  image(ghwikaRed, 605 - (25 / 90) * 15, 205, (4 / 3) * 25, 25);
+  image(ghwikaOrange, 635 - (25 / 90) * 15, 205, (4 / 3) * 25, 25);
+  image(ghwikaYellow, 665 - (25 / 90) * 15, 205, (4 / 3) * 25, 25);
+  image(ghwikaGreen, 695 - (25 / 90) * 15, 205, (4 / 3) * 25, 25);
+  image(ghwikaBlue, 725 - (25 / 90) * 15, 205, (4 / 3) * 25, 25);
+  image(ghwikaPurple, 755 - (25 / 90) * 15, 205, (4 / 3) * 25, 25);
   //select
   strokeWeight(5);
   stroke("pink");
@@ -293,16 +304,26 @@ function buttons() {
     } else if (Loomian === 24) {
       Loomian = "gsapphele";
     } else if (Loomian === 25) {
-      Loomian = "ghwikaRed";
+      Loomian = "rbt";
     } else if (Loomian === 26) {
-      Loomian = "ghwikaOrange";
+      Loomian = "rbd";
     } else if (Loomian === 27) {
-      Loomian = "ghwikaYellow";
+      Loomian = "gghwproto";
     } else if (Loomian === 28) {
-      Loomian = "ghwikaGreen";
+      Loomian = "ggcpropae";
     } else if (Loomian === 29) {
+      Loomian = "ggcmuta";
+    } else if (Loomian === 31) {
+      Loomian = "ghwikaRed";
+    } else if (Loomian === 32) {
+      Loomian = "ghwikaOrange";
+    } else if (Loomian === 33) {
+      Loomian = "ghwikaYellow";
+    } else if (Loomian === 34) {
+      Loomian = "ghwikaGreen";
+    } else if (Loomian === 35) {
       Loomian = "ghwikaBlue";
-    } else if (Loomian === 30) {
+    } else if (Loomian === 36) {
       Loomian = "ghwikaPurple";
     } else {
       Loomian = null;
